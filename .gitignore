@@ -1,0 +1,31 @@
+# Secrets / local credentials / dumps
+*.mdmp
+hs_err_pid*
+capture/
+certs/
+*.key
+*.pem
+
+# Java / runtime junk
+launch.jnlp
+**/ikvm_libs/
+**/ikvm_native/
+**/ikvm-probe/
+**/ikvm-direct-test/
+
+# Build intermediates (keep scripts; drop extracted payload copies)
+build/payload/
+build/kvm-tool-payload.zip
+build/gh/
+build/*.err
+build/*.txt
+build/_*.ps1
+build/_*.jnlp
+build/ps2exe.nupkg
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.log
